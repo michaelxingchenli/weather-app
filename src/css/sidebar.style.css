@@ -27,3 +27,17 @@
     margin-top: 1.5rem;
     color: #88869D;
 }
+
+.progress {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.card .num {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.card .unit {
+    font-size: 36px;
+}
