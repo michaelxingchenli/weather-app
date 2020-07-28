@@ -1,0 +1,29 @@
+.sidebar .temp {
+    font-size: 9rem;
+}
+
+.sidebar .temp span {
+    font-size: 3.125rem;
+    margin-left: -2rem;
+    color: #E7E7EB;
+}
+
+.sidebar .description {
+    color: #A09FB1;
+    font-size: 2rem;
+}
+
+.sidebar .date {
+    margin-top: 4rem;
+    color: #88869D;
+    font-size: 1.1rem;
+}
+
+.date span {
+    margin: 0 0.5rem;
+}
+
+.sidebar .location {
+    margin-top: 1.5rem;
+    color: #88869D;
+}

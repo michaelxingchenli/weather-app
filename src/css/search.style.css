@@ -1,0 +1,54 @@
+.searchbar {
+    width: 33.33%;
+    position: fixed;
+    top: 0;
+    background-color: #1e213a;
+    padding: 10px 40px;
+    height: 100%;
+    z-index: 999;
+    transition: all .5s ease-in-out;
+    left: -33%;
+}
+
+.searchbar.active {
+    left: 0;
+}
+
+.list-group {
+    max-height: calc(100% - 70px);
+    overflow-y: auto;
+}
+
+li.list-group-item {
+    background-color: transparent;
+    text-align: left;
+    line-height: 40px;
+    border: 1px solid transparent;
+}
+
+li.list-group-item:hover {
+    cursor: pointer;
+}
+
+li.list-group-item span {
+    float: right;
+    line-height: inherit;
+}
+
+li.list-group-item:hover {
+    border: 1px solid #333;
+}
+
+.menu-close {
+    text-align: right;
+}
+
+.form-control {
+    background-color: transparent;
+    color: white;
+    border-radius: 0;
+}
+.form-control:focus {
+    background-color: transparent;
+}
+
